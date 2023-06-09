@@ -57,7 +57,7 @@ async function BruteForce(x) {
     }
 
     // Simpan ke AddressLog.txt
-    logAddressFile(`${ethAddress},${pKey},${mnemonic}`);
+    // logAddressFile(`${ethAddress},${pKey},${mnemonic}`);
   } catch (error) {
     console.error(`\x1b[91m Error : ${error} \x1b[0m`);
   }
