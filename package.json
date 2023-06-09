@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "5.7",
+    "inquirer": "^9.2.7",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "bruteforce-privatekey-eth",
+  "version": "1.0.0",
+  "description": "brute force ether wallet address",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwicakra/bruteforce-privatekey-eth.git"
+  },
+  "author": "DwiCakraCode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwicakra/bruteforce-privatekey-eth/issues"
+  },
+  "homepage": "https://github.com/dwicakra/bruteforce-privatekey-eth#readme"
+}
